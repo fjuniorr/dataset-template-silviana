@@ -1,0 +1,44 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "letters",
+      "path": "https://raw.githubusercontent.com/dados-mg/dataset-template/master/data/letters.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "Linhas",
+            "description": "Quantidade de linhas"
+          },
+          {
+            "name": "letter",
+            "type": "string",
+            "format": "default",
+            "title": "Letras",
+            "description": "Lista as possibilidades de letras"
+          },
+          {
+            "name": "vowel",
+            "type": "any",
+            "format": "default",
+            "title": "Resultado",
+            "description": "Apresenta o resultado (verdadeiro/falso)"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "letters",
+  "title": "letters_data_package",
+  "description": "Analisa quais letras do alfabeto são vogais",
+  "contributors": [
+    {
+      "title": "Silviana",
+      "role": "author"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "letters",
-      "path": "https://raw.githubusercontent.com/dados-mg/dataset-template/master/data/letters.csv",
+      "path": "https://github.com/silviana-faria/dataset-template-silviana/blob/master/data/letters.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [

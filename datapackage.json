@@ -8,7 +8,7 @@
       "schema": {
         "fields": [
           {
-            "name": "ID",
+            "name": "id",
             "type": "integer",
             "format": "default",
             "title": "Linhas",
